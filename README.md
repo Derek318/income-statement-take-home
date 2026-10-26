@@ -2,6 +2,8 @@
 
 this repo implements the p&l for Northwind Coffee Roasters over any date range, built from the json provided.
 
+**Video walkthrough:** https://www.loom.com/share/85382f8eb4e34196a75fca824f77e243
+
 I opted for node and typescript with two small libraries: `big.js` for exact decimal money and `zod` for validating the ledger and query params. No framework, no build step (Node 22.18+ runs TypeScript directly). no point in over complicating things. should be enough to solve this
 
 Built with Node 22.22.0 and npm 10.9.4 on macOS.
