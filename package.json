@@ -2,14 +2,21 @@
   "name": "income-statement",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.18" },
+  "engines": {
+    "node": ">=22.18"
+  },
   "scripts": {
-    "start": "node src/server.ts",
+    "start": "node src/main.ts",
     "test": "node --test 'test/*.test.ts'",
     "typecheck": "tsc"
   },
   "devDependencies": {
+    "@types/big.js": "^7.0.0",
     "@types/node": "^22.15.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "big.js": "^7.0.1",
+    "zod": "^4.6.7"
   }
 }
